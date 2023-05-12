@@ -2,12 +2,11 @@
        const form = document.querySelector('form')
        const weatherInfo = document.getElementById('weatherInfo')
       
-
         async function getWeatherInfo(city){
             try{
                 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=ac363587152241107a97b9599922302a`
                 const response = await fetch (url)
-                const data = await  response. json()
+                const data = await response. json()
                 console.log (data)
                 const weatherDescription = data.weather[0].description;
                 const temperature = data.main.temp;
@@ -27,11 +26,9 @@
                 weatherInfo.appendChild(div2)
                 weatherInfo.appendChild(div3)
 
-                //weatherInfo.innerText = `It's currently ${weatherDescription} and ${temperature} degrees Celsius in ${city}.`;
             }
             
             catch(error){
-               // console.log('error fetching weather data')
                 const err = document.getElementById('error')
                 err.textContent= 'error fetching weather data'
             }    
@@ -39,12 +36,11 @@
         }
        
        form.addEventListener('submit',  async(event) => {
-        event.preventDefault();
+          event.preventDefault();
 
-        const city = inputCity.value;
-        await getWeatherInfo(city); 
-        //weatherInfo.innerHTML = ''; 
-      });
+          const city = inputCity.value;
+          await getWeatherInfo(city); 
+        });
      
     
 
