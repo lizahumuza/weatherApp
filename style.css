@@ -1,36 +1,35 @@
-body, html{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('/weather.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+body,
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 form {
-    background-color: rgba(104, 146, 231, 0.5);
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    
-  }
-button{
-    margin-top: 8px;
-    text-align: center;
+  background-color: rgba(104, 146, 231, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
 }
-#weatherInfo{
-    padding-top: 30px;
-
+button {
+  margin-top: 8px;
+  text-align: center;
 }
-.desc{
-    font-size: 30px;
+#weatherInfo {
+  padding-top: 30px;
 }
-.cit{
-    font-size:50px ;
+.desc {
+  font-size: 30px;
 }
-.deg{
-    font-size: 60px;
+.cit {
+  font-size: 50px;
 }
-#error{
-    color: red;
+.deg {
+  font-size: 60px;
+}
+#error {
+  color: red;
 }
