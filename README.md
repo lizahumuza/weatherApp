@@ -1,4 +1,6 @@
 # weatherApp from the Odin Project Curriculum
+<img width="638" alt="weather1" src="https://github.com/lizahumuza/weatherApp/assets/42404743/3b989085-91db-477b-a5d7-3cc6619113e6">
+
 
 A weather app; that shows the current weather of a city. The app uses OpenWeatherMap API to fetch weather data. It can also show weather based on the user’s current location using Geolocation API.
 
