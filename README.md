@@ -2,7 +2,7 @@
 
 A weather app; that shows the current weather of a city. The app uses OpenWeatherMap API to fetch weather data. It can also show weather based on the user’s current location using Geolocation API.
 
-# Main features
+## Main features
 .Shows current weather data of a city.
 
 .Displays weather data based on user's location.
@@ -11,7 +11,7 @@ A weather app; that shows the current weather of a city. The app uses OpenWeathe
 
 .Fully responsive design.
 
-# Technologies used
+## Technologies used
 .JavaScript
 
 .HTML
